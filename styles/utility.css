@@ -1,26 +1,37 @@
 .title-lg {
   font: var(--title-lg-asap);
-  color: var(--gray-600);
+}
+
+.title-md {
+  font: var(--title-md-asap);
 }
 
 .subtitle {
   font: var(--subtitle-inconsolata);
-  color: var(--gray-500);
-
-  & span {
-    color: var(--red);
-  }
+  
 }
 
 .text-sm {
   font: var(--text-sm-maven-pro);
-  color: var(--gray-400);
 }
 
 .text-md {
   font: var(--text-md-maven-pro);
 }
 
-.icon-red {
+.color-gray-400 {
+  color: var(--gray-400);
+}
+
+.color-gray-500 {
+  color: var(--gray-500);
+}
+
+.color-gray-600 {
+  color: var(--gray-600);
+}
+
+.color-red, .icon-red {
   color: var(--red);
 }
+
