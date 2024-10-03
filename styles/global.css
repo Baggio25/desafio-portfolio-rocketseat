@@ -32,10 +32,16 @@
 }
 
 body {
-  background-color: var(--gray-300);
+  background-color: var(--gray-200);
 }
 
 main {
   margin: 0 auto;
   max-width: 1366px;
+}
+
+.img-project {
+  width: 306px;
+  height: 156px;
+  border-radius: 8px;
 }

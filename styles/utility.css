@@ -6,9 +6,12 @@
   font: var(--title-md-asap);
 }
 
+.title-sm {
+  font: var(--title-sm-asap);
+}
+
 .subtitle {
   font: var(--subtitle-inconsolata);
-  
 }
 
 .text-sm {

@@ -90,3 +90,46 @@
     }
   }
 }
+
+#projects {
+  max-width: 1366px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding-block: 72px 144px;
+
+  & header {
+    margin-bottom: 56px;
+
+    & h6 {
+      margin-bottom: 8px;
+    }
+  }
+
+  & .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1040px;
+    gap: 24px;
+    margin: 0 auto;
+
+    & .project-card {
+      padding: 12px;
+      background-color: var(--gray-300);
+      width: 330px;
+      height: 280px;
+      text-align: left;
+      border-radius: 12px;
+
+      & img {
+        margin-bottom: 20px;
+      }
+
+      & h6 {
+        margin-bottom: 8px;
+      }
+    }
+  }
+
+}
