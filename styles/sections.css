@@ -8,6 +8,7 @@
 
   & .icon-down {
     margin-bottom: 57px;
+    cursor: pointer;
 
     & img {
       width: 32px;
@@ -39,6 +40,7 @@
         height: 40px;
         border-radius: 16px;
         background-color: var(--gray-300);
+        cursor: pointer;
 
         & img {
           width: 24px;
@@ -98,6 +100,7 @@
   text-align: center;
   flex-direction: column;
   padding-block: 72px 144px;
+  background-color: var(--gray-200);  
 
   & header {
     margin-bottom: 56px;
@@ -113,6 +116,7 @@
     max-width: 1040px;
     gap: 24px;
     margin: 0 auto;
+
 
     & .project-card {
       padding: 12px;
@@ -130,6 +134,53 @@
         margin-bottom: 8px;
       }
     }
+
+    & .project-card:hover {
+      border: 1.5px solid var(--gray-400);
+      cursor: pointer;
+    }
+  }
+}
+
+#services {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  max-width: 1366px;
+  padding-block: 72px 144px;
+
+
+  & header {
+    margin-bottom: 56px;
+
+    & h6 {
+      margin-bottom: 8px;
+    }
   }
 
+  & .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 880px;
+    gap: 24px;
+    margin: 0 auto;
+
+    & .service-card {
+      padding: 20px 20px;
+      width: 280px;
+
+      text-align: left;
+      border-radius: 12px;
+      border: 1px solid var(--gray-200);
+
+      & img {
+        margin-bottom: 27.5px;
+      }
+
+      & h6 {
+        margin-bottom: 8px;
+      }
+    }
+  }
 }
